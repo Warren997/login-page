@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <!-- Css and Js file-->
+    <link rel="stylesheet" href="../css/style.css">
+
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body id="home">
+
+
+    <div class="container d-block m-auto my-5">
+        <div class="">
+            <h1 class="text-center">Account Information</h1>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <!-- Account Information -->
+            <div id="acc-information" style="width: 25rem;">
+                <!-- Card -->
+                <div class="card mt-5">
+                    <div class="card-header h3">
+                        User Name: &nbsp;
+                        <div id="acc-user-name" class="text-primary float-end"></div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item fs-5">First Name: &nbsp;
+                            <div id="acc-first-name" class="text-primary float-end"></div>
+                        </li>
+                        <li class="list-group-item fs-5">Last Name: &nbsp;
+                            <div id="acc-last-name" class="text-primary float-end"></div>
+                        </li>
+                        <li class="list-group-item fs-5">Age: &nbsp;
+                            <div id="acc-age" class="text-primary float-end"></div>
+                        </li>
+                        <li class="list-group-item fs-5">Email: &nbsp;
+                            <div id="acc-email" class="text-primary float-end"></div>
+                        </li>
+                        <li class="list-group-item fs-5">Password: &nbsp;
+                            <div id="acc-password" class="text-primary float-end"></div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Btn -->
+                <div class="d-flex justify-content-between">
+                    <div id="signOut" class="btn btn-outline-success mt-3 ">
+                        Sign out
+                    </div>
+                    <div id="editInfo" class="btn btn-success mt-3">
+                        Edit Information
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Edit Account Information -->
+            <div id="edit-acc-information" style="width: 25rem;">
+                <!-- Card -->
+                <div class="card mt-5">
+                    <div class="card-header h3">
+                        User Name: &nbsp;
+                        <div id="edit-user-name" class="text-primary float-end"></div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item fs-5 ">
+                            First Name: &nbsp;
+                            <input id="edit-first-name" type="text" class="input float-end">
+                        </li>
+                        <li class=" list-group-item fs-5 ">Last Name: &nbsp;
+                            <input id="edit-last-name" type="text" class="input float-end">
+                        </li>
+                        <li class="list-group-item fs-5 ">Age: &nbsp;
+                            <input id="edit-age" type="number" class="input float-end">
+                        </li>
+                        <li class="list-group-item fs-5 ">Email: &nbsp;
+                            <input id="edit-email" type="text" class="input float-end">
+                        </li>
+                        <li class="list-group-item fs-5 ">Password: &nbsp;
+                            <input id="edit-password" type="text" class="input float-end">
+                        </li>
+                    </ul>
+                </div>
+                <!-- Btn -->
+                <div class="d-flex justify-content-between ">
+                    <div id="editInfoReturn" class="btn btn-outline-primary mt-3 ">
+                        Return
+                    </div>
+                    <div id="saveChanges" class="btn btn-primary mt-3 ">
+                        Save Changes
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <script src="../js/main.js"></script>
+    <script src="../js/home.js" type="module"></script>
+
+
+
+</body>
+
+</html>

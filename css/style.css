@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-register {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right top, rgb(120, 95, 55, .8), rgb(203, 182, 130, .7)), url("../img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#registerForm {
+    display: none;
+}
+
+#loginForm {
+    display: block;
+    width: 10rem;
+}
+
+#showRegister,
+#showLogin,
+u {
+    cursor: pointer;
+}
+
+.container {
+    border-radius: 3%;
+}
+
+#edit-acc-information {
+    display: none;
+}
+
+#acc-information {
+    display: block;
+}
